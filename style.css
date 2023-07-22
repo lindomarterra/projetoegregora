@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+:root{
+   --font-1: 'Lilita One', cursive;
+   --font-2: 'Bebas Neue', sans-serif;
+   --font-3: 'Anton', sans-serif;
+   --font-4: 'Exo 2', sans-serif;
+   --font-5: 'Luckiest Guy', cursive;
+   --font-6: 'Rubik Mono One', sans-serif;
+   --font-7: 'Alfa Slab One', cursive;
+
+    user-select: none;
+   --color01:#025259
+   --color02:#007172
+   --color03:#F29325
+   --color04:#D94F04
+}
+
+
+body{ background-color: rgba(197, 170, 118, 0.404); position: relative;}
+
+.wrapper { min-height: 100vh;}
+
+
+
+/* ICONS FIXED */
+.arrow-bar-up{
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: #ffffffe3;
+    background-color: #222222a8;
+    font-size: 20px;
+    z-index: 100;
+}
+.logoWhats{
+    position: fixed;
+    bottom: 4%;
+    right: 3%;
+    color: green;
+    z-index: 100;
+    font-size: 25px;  
+    transition: all linear 300ms;  
+}
+
+
+/*ITENS HEADER */
+
+header{ background-color: transparent;}
+
+.logoWhats:hover{ 
+    color: rgba(0, 128, 0, 0.726);
+    font-size: 30px;
+}
+.email{ 
+    text-decoration: none;
+    color: #222222be;
+}
+.email:hover{
+    color: #222222;
+}
+.text-end a{ text-decoration: none;}
+
+.bi-facebook, .bi-instagram, .bi-twitter{ 
+    color: #222222be;
+    font-size: 20px;
+    margin-right: 15px;
+  }
+.bi-facebook:hover {   color: #222222; }
+.bi-instagram:hover {   color: #222222; }
+.bi-twitter:hover {   color: #222222; }
+
+.navbar{ background-color:  rgba(37, 97, 97, 0.61);}
+
+.egregora{
+    font-family: 'Lilita One', cursive;
+    font-variant-caps: all-petite-caps;
+    position: relative;
+}
+.projeto{
+    position: absolute;
+    left:55%;
+    top: 5%;
+    font-family: var(--font-4);
+    font-style: italic;
+    font-size: 20px;
+}
+.nav-link{
+    transition: all 200ms linear;
+    font-weight: 700;
+}
+.nav-link:hover{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/* BANNER INICIAL */
+.div-img-banner{ overflow: hidden; }
+.bannerImgSmall, .bannerImgBig{transition: all 1.5s linear;}
+
+.bannerMoveSmall{ transform: scale(1.1);}
+.bannerMoveBig{ transform: scale(1.1);}
+
+
+
+
+
+
+
+/* QUEM SOMOS */
+
+.quemSomos{
+    font-family: var(--font-2);
+    text-shadow: 2px 2px 2px #222222bb;
+    color: rgb(53, 161, 161);
+    font-size: 2.5rem;
+}
+
+.divQuemSomos p{ 
+    font-size: 1.3rem; 
+    color: #222222cb;
+    line-height: 2.5rem;
+ }
+
+.divQuemSomos p::first-letter {
+    font-size: 2rem;
+    color: #222222d3;
+    font-family: var(--font-7);
+    margin-top: 20px;
+}
+
+.txtAnimation{
+    animation:  slideUp 2s ;
+}
+@keyframes slideUp {
+    
+    from{opacity: 0.5; line-height: 200px; }
+    to{opacity: 1; line-height: 25px; }
+}
+
+
+
+
+
+
+
+/* MISÃO-VISÃO-VALORES */
+
+.divVisao{background-color: tomato;}
+.divMisao{ background-color:  rgba(37, 97, 97, 0.61);}
+.divValores{background-color: rgb(160, 179, 58);}
+
+.titleVisao, .titleMisao, .titleValores{
+    font-family: var(--font-7);
+    text-shadow: 2px 2px 2px #222;
+    color: #ffffffe0;
+}
+.txtVisao, .txtMisao, .txtValores{
+    font-family: var(--font-3);
+    text-shadow: 1px 1px 1px #222;
+    color: #ffffffe3;
+}
+
+.hoverDiv:hover{ opacity: 80%;  }
+
+
+
+/*COMO ATUAMOS*/
+
+.comoAtuamos{
+    font-family: var(--font-2);
+    text-shadow: 2px 2px 2px #222222bb;
+    color: rgb(53, 161, 161);
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+/*EDUCAÇÃO-TRABALHO-RECOMPENSA*/
+
+.divTrabalho{
+    background-image: linear-gradient(to right, rgba(173, 216, 230, 0.63), white);
+}
+.bi-mortarboard-fill{
+    color: orange;
+    font-size: 50px;
+}
+.bi-award-fill{
+    color: orange;
+    font-size: 50px;
+}
+.bi-tools{
+    color: orange;
+    font-size: 50px;
+}
+.titleEducacao{
+    color: #222222b6;
+    font-family: var(--font-3);
+}
+.textEducacao{
+    color: #222222a4;
+    font-family: var(--font-3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*CARDS HOVER*/
+
+.hoverCard{ overflow: hidden;}
+
+.hoverCard img {  transition: all 500ms linear;}
+.hoverCard:hover img {transform: scale(1.05); }
+
+.cartao-title{ font-family: var(--font-3); color: #222222ef;  }
+.cartao-text{ font-family: var(--font-4); }
+
+
+
+
+
+
+
+/*FORMULARIO*/
+
+.formulario{ 
+    background-color:   rgba(233, 228, 218, 0.733);
+}
+.formTitle{
+    color: #222222ce;
+    font-family: var(--font-2);
+}
+.formTxt{
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+}
+
+.btnEnviar{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+
+.txtFooter{font-family: var(--font-4); font-size: 1.2rem; }
+
+.titleSiganois{ font-family: var(--font-2); }
+
+.nossoContato{ font-family: var(--font-3);  font-variant-caps: all-petite-caps;  }
+
+.linkFooter{color: rgba(255, 255, 255, 0.479); }
+
+.linkFooter:hover{ color: #ffffffd2;}

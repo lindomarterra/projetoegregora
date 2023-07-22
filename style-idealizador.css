@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+:root{
+   --font-1: 'Lilita One', cursive;
+   --font-2: 'Bebas Neue', sans-serif;
+   --font-3: 'Anton', sans-serif;
+   --font-4: 'Exo 2', sans-serif;
+   --font-5: 'Luckiest Guy', cursive;
+   --font-6: 'Rubik Mono One', sans-serif;
+   --font-7: 'Alfa Slab One', cursive;
+   
+    user-select: none;
+
+   --color01:#025259
+   --color02:#007172
+   --color03:#F29325
+   --color04:#D94F04
+}
+
+
+.divMain{
+    background-image: url(img/backGroundIdealizador01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
+ .fotoImg{
+    border-top-right-radius: 30px;    
+    border-bottom-left-radius: 30px;
+}   
+
+.divInfo{
+    background-color: rgba(6, 30, 44, 0.705);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.title{
+    font-family: var(--font-7);
+    color: #ffffffd8;
+    font-style: italic;
+    background-image: linear-gradient(to left,  #ffffff50,  #ffffff59, transparent  );
+    border-left: solid 5px #22222238;
+    text-shadow: 1px 1px 1px #222222b9;
+}
+
+.txt{
+    font-family: var(--font-4);
+    font-style: italic;
+    color: #fff;
+}
+
+
+
+
+.titleDivAside{
+    color: wheat;
+    font-family: var(--font-6);
+
+}
+
+.txtDivAside{
+    color: wheat;
+    font-family: var(--font-4);
+}
+
+.divFoto img{ opacity: 50%;}
+
+

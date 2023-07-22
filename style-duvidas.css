@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Exo+2:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+:root{
+   --font-1: 'Lilita One', cursive;
+   --font-2: 'Bebas Neue', sans-serif;
+   --font-3: 'Anton', sans-serif;
+   --font-4: 'Exo 2', sans-serif;
+   --font-5: 'Luckiest Guy', cursive;
+   --font-6: 'Rubik Mono One', sans-serif;
+   --font-7: 'Alfa Slab One', cursive;
+
+   user-select: none;
+
+   --color01:#025259
+   --color02:#007172
+   --color03:#F29325
+   --color04:#D94F04
+
+}
+
+
+
+
+.perguntas-respostas{
+    background-color: rgba(9, 56, 56, 0.788);
+    color: #ffffffbd;
+    font-family: var(--font-7);
+    box-shadow: 2px 2px 2px #222;
+}
+.questions{ background-color: rgba(210, 180, 140, 0.315);    }
+
+.questions img{
+    background-color: rgba(100, 204, 161, 0.315);
+    border-radius: 70px;
+}
+
+.titlePergunta{
+    color: rgba(9, 56, 56, 0.788);
+    font-family: var(--font-5);
+}
+.txtResposta{
+    color: rgba(9, 56, 56, 0.788);
+    font-family: var(--font-4);
+    font-weight: 700;
+}
+
+
+
+.divDetails{ background-color: rgba(210, 180, 140, 0.315);    }
+
+.divDetails h3{
+    font-family: var(--font-5);
+    color: rgba(9, 56, 56, 0.788);
+    text-align: center;
+}
+
+
+.scroll{
+    overflow-y: scroll; 
+    max-height: 890px;  }
+
+.divDetails details{
+    padding: 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid rgba(20, 148, 148, 0.144);
+
+}
+
+.divDetails details summary{
+    font-family: var(--font-3);
+    color: rgba(9, 56, 56, 0.788);
+    line-height: 2.2rem;
+}
+
+.divDetails details p{
+    font-family: var(--font-4);
+    color: rgba(9, 56, 56, 0.788);
+    font-weight: 600;
+    padding: 5px;
+}
